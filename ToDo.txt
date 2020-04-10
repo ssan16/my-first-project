@@ -3,3 +3,4 @@
 3. add in a greeting or welcoming to user
 4. ask user, ARE YOU READY TO LEARN THE STATES AND CAPITALS..
 5. PROMPT QUESTIONS.
+to be continued...
