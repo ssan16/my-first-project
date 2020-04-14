@@ -1,0 +1,28 @@
+print("Welcome!, Lets learn your States and Capitals!")
+
+name = input("Whats your name?")
+
+print("Welcome", name, ",Lets Learn!")
+answer = input("Are you ready?(yes/no):")
+points = 0
+num_ques = 50
+
+if answer == "yes" :
+    answer = input("What is the capital of Massachussetts?")
+    if answer == "boston" :
+        points += 1
+        print("Good Job!")
+    else :
+        points -= 1
+        print("Wrong!")
+
+    answer = input("What is the capital of California?")
+    if answer == "sacramento" :
+        points += 1
+        print("Good Job!")
+    else :
+        points -= 1
+        print("Wrong!")
+    print("you got a score of", points, ",Great Job!")
+else :
+    print("Maybe next time")
