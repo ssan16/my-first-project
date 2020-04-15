@@ -8,21 +8,166 @@ points = 0
 num_ques = 50
 
 if answer == "yes":
-    answer = input("What is the capital of Massachussetts?")
-    if answer == "boston":
+    answer = input("1.What is the capital of Alabama?")
+    if answer == "montgomery":
         points += 1
         print("Good Job!")
+    else:
+        points -= 1
+        print("Wrong!")
+
+    answer = input("2.What is the capital of Alaska?")
+    if answer == "juneau":
+        points += 1
+        print("Good Job!")
+    else:
+        points -= 1
+        print("Wrong!")
+    answer = input("2.What is the capital of Arizona?")
+    if answer == 'phoenix':
+        points += 1
+        print('Good Job!')
+    else:
+        points -= 1
+        print("Wrong!")
+    answer = input("3.What is the capital of Arkansas?")
+    if answer == 'little rock':
+            points += 1
+            print('Good Job!')
+    else:
+            points -= 1
+            print("Wrong!")
+    answer = input("4.What is the capital of California?")
+    if answer == 'sacramento':
+        points += 1
+        print('Good Job!')
+    else :
+        points -= 1
+        print("Wrong!")
+    answer = input("5.What is the capital of Colorado?")
+    if answer == 'denver':
+        points += 1
+        print('Good Job!')
+    else:
+        points -= 1
+        print("Wrong!")
+    answer = input("6.What is the capital of Connecticut?")
+    if answer == 'hartford':
+        points += 1
+        print('Good Job!')
+    else:
+        points -= 1
+        print("Wrong!")
+    answer = input("7.What is the capital of Delaware?")
+    if answer == 'dover':
+        points += 1
+        print('Good Job!')
+    else:
+        points -= 1
+        print("Wrong!")
+    answer = input("8.What is the capital of Florida?")
+    if answer == 'tallahassee':
+        points += 1
+        print('Good Job!')
+    else:
+        points -= 1
+        print("Wrong!")
+    answer = input("9.What is the capital of Georgia?")
+    if answer == 'atlanta':
+        points += 1
+        print('Good Job!')
+    else :
+        points -= 1
+        print("Wrong!")
+    answer = input("10.What is the capital of Hawaii?")
+    if answer == 'honolulu':
+        points += 1
+        print('Good Job!')
+    else :
+        points -= 1
+        print("Wrong!")
+    answer = input("11.What is the capital of Idaho?")
+    if answer == 'boise':
+        points += 1
+        print('Good Job!')
+    else:
+        points -= 1
+        print("Wrong!")
+    answer = input("12.What is the capital of Illinois?")
+    if answer == 'springfield':
+        points += 1
+        print('Good Job!')
+    else:
+        points -= 1
+        print("Wrong!")
+    answer = input("13.What is the capital of Indiana?")
+    if answer == 'indianapolis':
+        points += 1
+        print('Good Job!')
+    else :
+        points -= 1
+        print("Wrong!")
+    answer = input("14.What is the capital of Iowa?")
+    if answer == 'des moines':
+        points += 1
+        print('Good Job!')
+    else :
+        points -= 1
+        print("Wrong!")
+    answer = input("15.What is the capital of Kansas?")
+    if answer == 'topeka':
+        points += 1
+        print('Good Job!')
+    else :
+        points -= 1
+        print("Wrong!")
+    answer = input("16.What is the capital of Kentucky?")
+    if answer == 'frankfort':
+        points += 1
+        print('Good Job!')
+    else:
+        points -= 1
+        print("Wrong!")
+    answer = input("17.What is the capital of Louisiana?")
+    if answer == 'baton rouge':
+        points += 1
+        print('Good Job!')
+    else :
+        points -= 1
+        print("Wrong!")
+    answer = input("18.What is the capital of Maine?")
+    if answer == 'augusta':
+        points += 1
+        print('Good Job!')
+    else :
+        points -= 1
+        print("Wrong!")
+    answer = input("19.What is the capital of Maryland?")
+    if answer == 'annapolis':
+        points += 1
+        print('Good Job!')
+    else :
+        points -= 1
+        print("Wrong!")
+    answer = input("20.What is the capital of Massachussetts?")
+    if answer == 'boston':
+        points += 1
+        print('Good Job!')
     else :
         points -= 1
         print("Wrong!")
 
-    answer = input("What is the capital of California?")
-    if answer == "sacramento":
-        points += 1
-        print("Good Job!")
-    else :
-        points -= 1
-        print("Wrong!")
+
+
+
+
+
+
+
+
+
+
+
     print("you got a score of", points, ",Great Job!")
 else :
     print("Maybe next time")
