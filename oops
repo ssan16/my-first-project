@@ -356,9 +356,9 @@ if answer == "yes":
     if answer == 'cheyenne':
         points += 1
         print('Good Job!')
-    else :
+    else:
         points -= 1
         print("Wrong!")
-    print("you got a score of", points, ",Great Job!")
+    print("you got", points ,"out of 50 ")
 else :
     print("Maybe next time")
