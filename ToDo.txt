@@ -3,4 +3,7 @@
 3. add in a greeting or welcoming to user
 4. ask user, ARE YOU READY TO LEARN THE STATES AND CAPITALS..
 5. PROMPT QUESTIONS.
-to be continued...
+For Next mileston
+1. clean up code, using a list
+2. looking into adding images
+3. explore more into using a GUI and attempt that
