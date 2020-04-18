@@ -15,5 +15,5 @@ for state in states:
         print("incorrect!")
         score -= 1
 
-print("You got",score,"out of 50")
+print('This is your score for today=', score)
 
