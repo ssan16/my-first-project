@@ -7,3 +7,8 @@ For Next mileston
 1. clean up code, using a list
 2. looking into adding images
 3. explore more into using a GUI and attempt that
+
+1.Code written from a list.
+2. was able to show picture with the use of PIL
+3. Still exploring what i can do with tkinter,(initial phases of Gui started)
+4. Will continue to work with tkinter on GUI.
